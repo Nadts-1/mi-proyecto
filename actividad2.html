@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nadia Lizet Díaz Peralta">
+    <meta name="description" content="Explicar un c+odigo en lenguaje C">
+    <title>Actividad 2: Explicar código en C</title>
+</head>
+<body>
+    <h1>Actividad 2: Explicar código en C</h1>
+    <h2>Programa para que verifiques la mayoria de edad</h2>
+
+    <p>En el código se ve, que se solocita la edad de  un usuario para ver si es mayor o menor de edad</p>
+
+    <pre>
+<code>
+#include &lt;stdio.h&gt;
+int main()
+{
+    int edad;
+    printf("¿Cuántos años tienes? ");
+    scanf("%d", &amp;edad);
+
+
+    if (edad &gt;= 18) 
+    {
+        printf("Eres mayor de edad.\n");
+    } 
+    else 
+    {
+        printf("Eres menor de edad.\n");
+    }
+
+
+    return 0;
+
+}
+</code></pre>
+
+<h3>Explicación de cada parte del Código</h3>
+<p>#include &lt;stdio.h&gt; Es la libreria que se ocupa para que el programa en C puedan funcionar</p>
+<p>int main() Es la función principal del programa todo lo que este adentro de sus llaves es lo que va a leer la computadora y lo va a ejecutar.</p>
+<p>int edad; Es para declara una variable entera. Es como crear un espacio en la memoria para guaradar el no. de años que tiene la persona </p>
+<p>printf Es una función que sirve para mostrar un mensaje en la pantalla y que lo pueda ver el usuario</p>
+<p>scanf Es para leer lo que el usuario escribe. El "%d" le dice que va a recivir un no. entero y el &amp;edad lo guarda dentro de la variasble edad</p>
+<p> Estructura if. Es una condicion que sirve para evaluar si el valor guardado en "edad" es mayor o igual a 18 y si es verdadereo se muestra el mensaje</p>
+<p> Estructura ELSE. Es como lo negativo si el if no se cumple, el programa no entra al if y entra al else y muestra otro mensaje </p>
+<p>return 0; Es para avisarler al sistema que el programa se ejecuto sin errorres y correctamente</p>
+</body>
+html
+</html>
+
+<!-- Título Jeráruicos-->
+<!-- Bloque de Code-->
+<!-- Bloque <pre> -->
+<!-- Parrafos-->
+
+

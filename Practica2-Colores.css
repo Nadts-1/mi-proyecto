@@ -1,0 +1,85 @@
+body
+{
+    font-family:'sans-serif';
+    background-color: rgb(192, 192, 204);
+    margin: 0px;
+    padding: 20px;
+}
+caption
+{
+    font-size: 45px;
+    color: rgb(50, 50, 55);
+}
+#tabla_integrantes
+{
+    border:5px solid rgb(117, 117, 125);
+    position: absolute;
+    top: 120px;
+    left: 280px;
+}
+.encabezados, .names, #liz, #danko, #gael
+{
+    border:2px solid rgb(117, 117, 125);
+    padding: 35px 80px;
+    font-size: 35px;
+}
+.encabezados
+{
+    background-color: rgba(89, 87, 104, 0.384);
+    color: white;
+}
+.names 
+{
+    background-color: rgba(31,160, 160, 0.116);
+    color: white;
+}
+#liz
+{
+    background-color: purple;
+    color:white;
+}
+#danko
+{
+    background-color: green;
+    color:white;
+}
+#gael
+{
+    background-color: black;
+    color:white;
+}
+#liz:hover
+{
+    background-color: white;
+    color:purple;
+}
+#danko:hover
+{
+    background-color: white;
+    color: green;
+}
+#gael:hover
+{
+    background-color: white;
+    color: black;
+}
+.sticky-note
+{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: blanchedalmond;
+    color: purple;
+    border: 5px solid rgb(223, 223, 149);
+    font-size: 20px;
+    padding: 10px;
+}
+@media only screen and (orientation: landscape)
+{
+    body
+    {
+        background-color: rgb(156, 156, 170);
+        font-family: serif;
+    }
+    
+}
